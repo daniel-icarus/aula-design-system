@@ -1,9 +1,10 @@
-import './styles/global.css';
+import { SignIn } from "./pages/Signin";
+import "./styles/global.css";
 
 function App() {
-    return (
-      <h1>Hello World</h1>
-    )
+  return (
+    <SignIn />
+  );
 }
 
-export default App
+export default App;
